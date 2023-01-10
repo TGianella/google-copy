@@ -1,0 +1,188 @@
+* {
+  outline: red 1px solid;
+}
+
+body {
+  background: #202124;
+  color: white;
+  font-family: Helvetica;
+  font-size: 85%
+}
+
+.lens {
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  color: #9aa0a6;
+}
+
+.app-button-logo {
+  line-height: normal;
+  display: block;
+  height: 30px;
+  width: 30px;
+  color: rgba(255,255,255,0,87);
+}
+
+
+.connect-button {
+  background: #93baf9;
+  padding: 10px 30px;
+  border: transparent;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+}
+
+.english-link {
+  color: #8ab4f8;
+}
+
+.site-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.header-content {
+  margin: 0px 1%;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.logo, .searchbar, .buttons {
+  margin: 10px 0px;
+}
+
+.logo {
+  margin-top: 200px;
+}
+
+#logo-google {
+  height: 92px;
+  width: 272px;
+}
+
+.searchbar {
+  /*flex: 1;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 9px 0 14px;
+  border: 1px #9aa1a6 solid;
+  border-radius: 50px;
+  width: 550px;
+  height: 40px;
+}
+
+.searchbar:hover {
+  background: #303134;
+  border: none;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+}
+
+input {
+  background: transparent;
+  border: none;
+}
+.searchbar-field {
+  width: 100%;
+  color: #e8eaed;
+  margin-top: -4px;
+  margin-left: 4px;
+  font-size: 16px;
+}
+
+.searchbar-field:focus {
+  outline: none;
+}
+
+.image-search {
+  margin-bottom: 4px;
+}
+
+.search-button {
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background: #303134;
+  color: #e8eaed;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+
+}
+
+.site-footer {
+  background: #171717;
+  color: #bdc1c6;
+}
+
+.france {
+  padding: 10px 30px;
+}
+
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: flex;
+  align-items: center;
+}
+         
+.footer-link, .developpement-durable-link {
+  color: #bdc1c6;
+}
+
+#leaf {
+  height: 12px;
+  width: 12px;
+}
+
+.developpement-durable, .second-line, .third-line {
+  display: flex;
+  justify-content: space-around;
+  margin: 1% 0px;
+}
+
+.footer-content {
+  margin: 0px 3%;
+}
